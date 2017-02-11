@@ -22,7 +22,7 @@
 @property IBInspectable UIColor *labelTextColor;
 
 @property IBInspectable BOOL isEnabled;
-@property IBInspectable BOOL isChecked;
+@property IBInspectable BOOL isCheckeds;
 @property IBInspectable BOOL showTextLabel;
 @property (nonatomic, strong) IBInspectable  NSString *text;
 

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "54BDB545AE29C8AF65AF87DBA2D1EF6F4BE98951",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "172868C5F0F8ECEF749906512D92D8610B6719AB" : 9223372036854775807,
+    "54BDB545AE29C8AF65AF87DBA2D1EF6F4BE98951" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "16CDD22C-A0A4-41AF-8D9B-9BA1CE01945C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "172868C5F0F8ECEF749906512D92D8610B6719AB" : "..",
+    "54BDB545AE29C8AF65AF87DBA2D1EF6F4BE98951" : "CheckBoxControl\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CheckBoxControl",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CheckBoxControl.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fazeel-ahmed\/CheckBoxControl.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "172868C5F0F8ECEF749906512D92D8610B6719AB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fazeel-ahmed\/CheckBoxControl.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54BDB545AE29C8AF65AF87DBA2D1EF6F4BE98951"
+    }
+  ]
+}

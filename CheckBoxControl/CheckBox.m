@@ -35,7 +35,7 @@ IB_DESIGNABLE
     _boxFillColor = [UIColor colorWithRed:0 green:.478 blue:1 alpha:1];
     _boxBorderColor = [UIColor colorWithRed:0 green:.478 blue:1 alpha:1];
     _checkColor = [UIColor whiteColor];
-    _isChecked = YES;
+    _isCheckeds = YES;
     _isEnabled = YES;
     _showTextLabel = NO;
     textIsSet = NO;
@@ -77,7 +77,7 @@ IB_DESIGNABLE
         [boxPath fill];
         [boxPath stroke];
         //if control is checked draw checkmark
-        if (_isChecked == YES) {
+        if (_isCheckeds == YES) {
             UIBezierPath *checkPath = [UIBezierPath bezierPath];
             checkPath.lineWidth = 5;
             [checkPath moveToPoint:CGPointMake(self.frame.size.width * 1/5, self.frame.size.height/5)];
@@ -93,7 +93,7 @@ IB_DESIGNABLE
         boxPath.lineWidth = 4;
         [boxPath fill];
         [boxPath stroke];
-        if (_isChecked == YES) {
+        if (_isCheckeds == YES) {
             UIBezierPath *checkPath = [UIBezierPath bezierPath];
             checkPath.lineWidth = 5;
             [checkPath moveToPoint:CGPointMake(self.frame.size.width * 4/5, self.frame.size.height/5)];
@@ -117,12 +117,12 @@ IB_DESIGNABLE
 }
 
 -(BOOL)beginTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event{
-    [self setChecked:!_isChecked];
+    [self setChecked:!_isCheckeds];
     return true;
 }
 
 -(void)setChecked:(BOOL)isChecked{
-    _isChecked = isChecked;
+    _isCheckeds = isChecked;
     [self setNeedsDisplay];
 }
 -(void)setEnabled:(BOOL)isEnabled{
