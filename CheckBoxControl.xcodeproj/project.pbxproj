@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1208C7511E367C6A00E7E02C /* CheckLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1208C7541E367C6A00E7E02C /* Build configuration list for PBXAggregateTarget "CheckLib" */;
+			buildPhases = (
+				1208C7551E367C7300E7E02C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = CheckLib;
+			productName = CheckLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1208C72D1E35245F00E7E02C /* CheckBoxControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1208C7231E35245F00E7E02C /* CheckBoxControl.framework */; };
+		1208C7321E35245F00E7E02C /* CheckBoxControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1208C7311E35245F00E7E02C /* CheckBoxControlTests.m */; };
+		1208C7341E35245F00E7E02C /* CheckBoxControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1208C7261E35245F00E7E02C /* CheckBoxControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1208C73F1E3524C800E7E02C /* CheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 1208C73D1E3524C800E7E02C /* CheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1208C7401E3524C800E7E02C /* CheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 1208C73E1E3524C800E7E02C /* CheckBox.m */; };
+		1208C7411E3524C800E7E02C /* CheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 1208C73E1E3524C800E7E02C /* CheckBox.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1208C72E1E35245F00E7E02C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1208C71A1E35245F00E7E02C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1208C7221E35245F00E7E02C;
+			remoteInfo = CheckBoxControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1208C7231E35245F00E7E02C /* CheckBoxControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheckBoxControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1208C7261E35245F00E7E02C /* CheckBoxControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckBoxControl.h; sourceTree = "<group>"; };
+		1208C7271E35245F00E7E02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1208C72C1E35245F00E7E02C /* CheckBoxControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckBoxControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1208C7311E35245F00E7E02C /* CheckBoxControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckBoxControlTests.m; sourceTree = "<group>"; };
+		1208C7331E35245F00E7E02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1208C73D1E3524C800E7E02C /* CheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBox.h; sourceTree = "<group>"; };
+		1208C73E1E3524C800E7E02C /* CheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBox.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1208C71F1E35245F00E7E02C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1208C7291E35245F00E7E02C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1208C72D1E35245F00E7E02C /* CheckBoxControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1208C7191E35245F00E7E02C = {
+			isa = PBXGroup;
+			children = (
+				1208C7251E35245F00E7E02C /* CheckBoxControl */,
+				1208C7301E35245F00E7E02C /* CheckBoxControlTests */,
+				1208C7241E35245F00E7E02C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1208C7241E35245F00E7E02C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1208C7231E35245F00E7E02C /* CheckBoxControl.framework */,
+				1208C72C1E35245F00E7E02C /* CheckBoxControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1208C7251E35245F00E7E02C /* CheckBoxControl */ = {
+			isa = PBXGroup;
+			children = (
+				1208C7261E35245F00E7E02C /* CheckBoxControl.h */,
+				1208C73D1E3524C800E7E02C /* CheckBox.h */,
+				1208C73E1E3524C800E7E02C /* CheckBox.m */,
+				1208C7271E35245F00E7E02C /* Info.plist */,
+			);
+			path = CheckBoxControl;
+			sourceTree = "<group>";
+		};
+		1208C7301E35245F00E7E02C /* CheckBoxControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				1208C7311E35245F00E7E02C /* CheckBoxControlTests.m */,
+				1208C7331E35245F00E7E02C /* Info.plist */,
+			);
+			path = CheckBoxControlTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1208C7201E35245F00E7E02C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1208C7341E35245F00E7E02C /* CheckBoxControl.h in Headers */,
+				1208C73F1E3524C800E7E02C /* CheckBox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1208C7221E35245F00E7E02C /* CheckBoxControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1208C7371E35245F00E7E02C /* Build configuration list for PBXNativeTarget "CheckBoxControl" */;
+			buildPhases = (
+				1208C71E1E35245F00E7E02C /* Sources */,
+				1208C71F1E35245F00E7E02C /* Frameworks */,
+				1208C7201E35245F00E7E02C /* Headers */,
+				1208C7211E35245F00E7E02C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckBoxControl;
+			productName = CheckBoxControl;
+			productReference = 1208C7231E35245F00E7E02C /* CheckBoxControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1208C72B1E35245F00E7E02C /* CheckBoxControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1208C73A1E35245F00E7E02C /* Build configuration list for PBXNativeTarget "CheckBoxControlTests" */;
+			buildPhases = (
+				1208C7281E35245F00E7E02C /* Sources */,
+				1208C7291E35245F00E7E02C /* Frameworks */,
+				1208C72A1E35245F00E7E02C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1208C72F1E35245F00E7E02C /* PBXTargetDependency */,
+			);
+			name = CheckBoxControlTests;
+			productName = CheckBoxControlTests;
+			productReference = 1208C72C1E35245F00E7E02C /* CheckBoxControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1208C71A1E35245F00E7E02C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Fazeel;
+				TargetAttributes = {
+					1208C7221E35245F00E7E02C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					1208C72B1E35245F00E7E02C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					1208C7511E367C6A00E7E02C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1208C71D1E35245F00E7E02C /* Build configuration list for PBXProject "CheckBoxControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1208C7191E35245F00E7E02C;
+			productRefGroup = 1208C7241E35245F00E7E02C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1208C7221E35245F00E7E02C /* CheckBoxControl */,
+				1208C72B1E35245F00E7E02C /* CheckBoxControlTests */,
+				1208C7511E367C6A00E7E02C /* CheckLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1208C7211E35245F00E7E02C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1208C72A1E35245F00E7E02C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1208C7551E367C7300E7E02C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Copy the framework structure to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Open the Universal output folder for convenience\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1208C71E1E35245F00E7E02C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1208C7401E3524C800E7E02C /* CheckBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1208C7281E35245F00E7E02C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1208C7411E3524C800E7E02C /* CheckBox.m in Sources */,
+				1208C7321E35245F00E7E02C /* CheckBoxControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1208C72F1E35245F00E7E02C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1208C7221E35245F00E7E02C /* CheckBoxControl */;
+			targetProxy = 1208C72E1E35245F00E7E02C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1208C7351E35245F00E7E02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1208C7361E35245F00E7E02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1208C7381E35245F00E7E02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CheckBoxControl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fazeel.CheckBoxControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		1208C7391E35245F00E7E02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CheckBoxControl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fazeel.CheckBoxControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1208C73B1E35245F00E7E02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CheckBoxControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fazeel.CheckBoxControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1208C73C1E35245F00E7E02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CheckBoxControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fazeel.CheckBoxControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1208C7521E367C6A00E7E02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1208C7531E367C6A00E7E02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1208C71D1E35245F00E7E02C /* Build configuration list for PBXProject "CheckBoxControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1208C7351E35245F00E7E02C /* Debug */,
+				1208C7361E35245F00E7E02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1208C7371E35245F00E7E02C /* Build configuration list for PBXNativeTarget "CheckBoxControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1208C7381E35245F00E7E02C /* Debug */,
+				1208C7391E35245F00E7E02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1208C73A1E35245F00E7E02C /* Build configuration list for PBXNativeTarget "CheckBoxControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1208C73B1E35245F00E7E02C /* Debug */,
+				1208C73C1E35245F00E7E02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1208C7541E367C6A00E7E02C /* Build configuration list for PBXAggregateTarget "CheckLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1208C7521E367C6A00E7E02C /* Debug */,
+				1208C7531E367C6A00E7E02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1208C71A1E35245F00E7E02C /* Project object */;
+}
